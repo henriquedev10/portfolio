@@ -170,3 +170,27 @@ button:hover{
     width: 60px;
     height: 60px;
 }
+
+#text{
+    position: relative;
+    font-weight: bold;
+}
+#text::before{
+    content: "";
+    position: absolute;
+    transition: all 1s;
+    animation: text 1s infinite;
+}
+@keyframes text {
+    0%,100%{
+        opacity: 0;
+    }50%{
+        opacity: 1;
+    }
+}
+
+#linha2 span {
+  color: blue;
+}
+
+
