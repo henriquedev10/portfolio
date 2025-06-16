@@ -1,80 +1,99 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Portfólio Henrique</title>
 </head>
+<body>
+  <div class="background">
+    
+    <!-- Cabeçalho -->
+    <header>
+      <div class="logo">
+        <i class="fa-solid fa-h"></i>
+      </div>
+      <div class="cabeçalho-link">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Projetos</a></li>
+        <li><a href="#">Serviços</a></li>
+        <button class="sobre">Meus Projetos</button>
+      </div>
+    </header>
+
+    <!-- Conteúdo principal -->
+    <div class="container-text">
+      <div class="text">
+        <h3 id="linha1">Bem-vindo(a) ao meu portfólio!</h3>
+        <h1 id="linha2">Eu sou <span>Henrique Almeida</span></h1>
+        <p id="linha3">Desenvolvedor Full Stack, confira meus projetos<br>e solicite um orçamento</p>
+
+        <!-- Redes sociais -->
+        <div class="redes-sociais">
+          <a href="https://www.linkedin.com/in/henrique-almeida-ads/" target="_blank">
+            <img class="linkedin-logo" src="img/linkedin-logo.jpg" alt="linkedin logo">
+          </a>
+          <a href="https://github.com/henriquedev10" target="_blank">
+            <img class="github-logo" src="img/github-logo.jpg" alt="github logo">
+          </a>
+          <a href="https://www.slideshare.net/slideshow/henrique-almeida-cv-pdf-curriculo-logo-png/279721144" target="_blank">
+            <img class="curriculo-logo" src="img/curriculo-logo.jpg" alt="currículo logo">
+          </a>
+          <a href="mailto:henriquealves592@gmail.com" target="_blank">
+            <img class="email-logo" src="img/email-logo.png" alt="email logo">
+          </a>
+          <a href="https://wa.me/5511962651652" target="_blank">
+            <img class="whatsapp-logo" src="img/whatsapp-logo.svg" alt="whatsapp logo">
+          </a>
+        </div>
+
+        <!-- Botão de contato -->
+        <a href="https://wa.me/5511962651652" target="_blank">
+          <button>Entrar em contato</button>
+        </a>
+      </div>
+
+      <!-- Imagem de perfil -->
+      <img class="perfil" src="img/perfil.jpg" alt="perfil-png">
+    </div>
+
+<!-- Seção de projetos -->
+
+<section class="projects-section">
+  <h2 class="titulo">Meus <span>Projetos</span></h2>
+
+  <!-- Projeto 1 -->
+  <div class="projeto">
+    <img src="img/catalogocarros.png" alt="Catálogo de Carros" class="projeto-img" />
+    <h3>CATÁLOGO DE CARROS</h3>
+    <p>Catálogo para agências de aluguel de veículos</p>
+    <a href="https://github.com/henriquedevsz10/task-app" target="_blank" class="btn-link">Visualizar</a>
+  </div>
+
+  <!-- Projeto 2 -->
+  <div class="projeto">
+    <img src="img/lojaonline.png" alt="Loja Online" class="projeto-img" />
+    <h3>Loja Online</h3>
+    <p>E-commerce interativo para Marketing Digital</p>
+    <a href="https://github.com/henriquedevsz10/task-app" target="_blank" class="btn-link">Visualizar</a>
+  </div>
+
+  <!-- Projeto 3 -->
+  <div class="projeto">
+    <img src="img/radarinsta.png" alt="Radar Insta" class="projeto-img" />
+    <h3>Radar Insta</h3>
+    <p>App para verificar seguidores no Instagram</p>
+    <a href="https://github.com/henriquedevsz10/task-app" target="_blank" class="btn-link">Visualizar</a>
+  </div>
+</section>
 
 
-  <title>Fundo Tela Inteira</title>
-  <style>
-    html, body {
-      height: 100%;                   /* Ocupa 100% da altura da tela */
-      margin: 0;                      /* Remove margens padrão */
-      padding: 0;
-    }
-  </style>
 
+  </div> <!-- Fim da .background -->
 
-    <body> 
-            <div class="background">
-
-                <header>
-                        <div class="logo">
-                            <i class="fa-solid fa-h"></i>
-                        </div>
-                             <div class="cabeçalho-link">
-                                    <li>
-                                        <a href="#">Home</a>
-                                   </li>
-                                    <li>
-                                        <a href="#">Projetos</a>
-                                   </li>
-                                    <li>
-                                        <a href="#">Serviços</a>
-                                   </li>
-                                   <button class="sobre">Meus Projetos</button>
-                            </div>
-               </header>
-                        <div class="container-text">
-                            <div class="text">
-                                <h3 id="linha1">Bem-vindo(a) ao meu portfólio!</h3>
-                                <h1 id="linha2">Eu sou <span>Henrique Almeida</span></h1>
-                                <p id="linha3">Desenvolvedor Full Stack, confira meus projetos<br>
-                                e solicite um orçamento
-                               </p>
-                               <div class="redes-sociais">
-                                <a href="https://www.linkedin.com/in/henrique-almeida-ads/" target="_blank">
-                                <img class="linkedin-logo" src="img/linkedin-logo.jpg" alt="linkedin logo">
-                                </a>
-
-                                <a href="https://github.com/henriquedev10" target="_blank">
-                                <img class="github-logo" src="img/github-logo.jpg" alt="github logo">
-                                </a>
-
-                                <a href="https://www.slideshare.net/slideshow/henrique-almeida-cv-pdf-curriculo-logo-png/279721144" target="_blank">
-                                <img class="curriculo-logo" src="img/curriculo-logo.jpg" alt="currículo logo">
-                                </a>
-
-                                <a href="mailto:henriquealves592@gmail.com" target="_blank">
-                                <img class="email-logo" src="img/email-logo.png" alt="email logo">
-                                </a>
-
-                                <a href="https://wa.me/5511962651652" target="_blank">
-                                <img class="whatsapp-logo" src="img/whatsapp-logo.svg" alt="whatsapp logo">
-                                </a>
-                               </div>
-                               <a href="https://wa.me/5511962651652" target="_blank">
-                               <button>Entrar em contato</button></a>
-                            </div>
-                             <img class="perfil" src="img/perfil.jpg" alt="perfil-png">
-                       </div>
-                 </div>
-            </body>
-        </html>
-        <script src="index.js" defer></script>
-    </body>
+  <script src="index.js" defer></script>
+</body>
 </html>
+
