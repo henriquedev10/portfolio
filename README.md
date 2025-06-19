@@ -10,7 +10,7 @@ Este repositório contém um projeto de portfólio moderno desenvolvido com foco
 🧭 Navegação simples, direta e intuitiva.
 📄 Estrutura modular pronta para integração com frameworks ou backends no futuro.
 
-📷 Preview
+📷 Preview:
 
 ![Captura de Tela 2025-06-19 às 17 56 42](https://github.com/user-attachments/assets/1d1d8bd8-504b-4b1f-a7a1-4b48c384581e)
 
@@ -35,8 +35,11 @@ Git/GitHub: controle de versão e hospedagem
 Visualizar Projeto:
 https://henriquedev10.github.io/portfolio/
 
+
 Clone este repositório:
+
 git clone https://github.com/henriquedev10/portfolio.git
+
 Abra o index.html no seu navegador ou utilize uma extensão de Live Server (VS Code).
 
 
