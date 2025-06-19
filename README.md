@@ -15,6 +15,7 @@ Este repositório contém um projeto de portfólio moderno desenvolvido com foco
 ![Captura de Tela 2025-06-19 às 17 56 42](https://github.com/user-attachments/assets/1d1d8bd8-504b-4b1f-a7a1-4b48c384581e)
 
 📁 Estrutura do Projeto
+
 portfolio/
 ├── css/
 │   └── style.css
@@ -24,6 +25,7 @@ portfolio/
 │   └── script.js
 ├── index.html
 └── README.md
+
 🛠️ Tecnologias Utilizadas
 HTML5: marcação semântica
 CSS3: responsividade e design visual
