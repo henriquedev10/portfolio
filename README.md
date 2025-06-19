@@ -9,8 +9,11 @@ Este repositório contém um projeto de portfólio moderno desenvolvido com foco
 🚀 Animações suaves e transições que valorizam a experiência do usuário.
 🧭 Navegação simples, direta e intuitiva.
 📄 Estrutura modular pronta para integração com frameworks ou backends no futuro.
+
 📷 Preview
+
 ![Captura de Tela 2025-06-19 às 17 56 42](https://github.com/user-attachments/assets/1d1d8bd8-504b-4b1f-a7a1-4b48c384581e)
+
 📁 Estrutura do Projeto
 portfolio/
 ├── css/
@@ -26,7 +29,9 @@ HTML5: marcação semântica
 CSS3: responsividade e design visual
 JavaScript: interações e funcionalidades básicas
 Git/GitHub: controle de versão e hospedagem
+
 🧪 Como Usar
+
 Visualizar Projeto:
 https://henriquedev10.github.io/portfolio/
 
