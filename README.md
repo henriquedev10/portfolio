@@ -1,4 +1,4 @@
-🗂️ Portfolio | Projeto de Protocolo Pessoal
+🗂️ Portfólio | Projeto de Protocolo Pessoal
 
 Este repositório contém um projeto de portfólio moderno desenvolvido com foco em design responsivo, estrutura semântica e visuais elegantes, ideal para apresentar suas habilidades, projetos e trajetória profissional de forma objetiva e impactante.
 
